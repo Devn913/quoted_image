@@ -7,6 +7,7 @@ if __name__ == "__main__":
     if(user_input == 1):
         img = ImageEdit()
         img.run()
+        print("done")
     elif(user_input == 2):
         no_of_image = 1
         no_of_image =  int(input("How many image you want to generate? (leave empty for default ) : "))
